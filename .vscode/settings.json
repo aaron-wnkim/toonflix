@@ -1,0 +1,30 @@
+{
+    "git.openRepositoryInParentFolders": "always",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "redhat.telemetry.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "window.confirmBeforeClose": "always",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off",
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit", 
+    },
+    "dart.openDevTools": "flutter",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.previewHotReloadOnSaveWatcher": true,
+}
